@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="tr">
+    <meta name="description" content="Developer By TGA">
+    <meta name="page_type" content="np-template-header-footer-from-plugin">
+    <title>BULUNDU !</title>
+    <link rel="stylesheet" href="static/css/nicepage.css" media="screen">
+<link rel="stylesheet" href="static/css/bulundu.css" media="screen">
+    <meta name="generator" content="Nicepage 3.17.2, nicepage.com">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
+    
+    
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": ""
+}</script>
+    <meta property="og:title" content="bulundu">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#478ac9">
+  </head>
+  <body class="u-body" style="background-color:#4D4D4D;" >
+    <section class="u-align-center u-clearfix u-section-1" id="sec-f51c">
+      <div class="u-expanded-width u-table u-table-responsive u-table-1">
+        <table class="u-table-entity u-table-entity-1">
+          <colgroup>
+            <col width="2.4%">
+            <col width="2.1%">
+            <col width="7.5%">
+            <col width="6.7%">
+            <col width="8.5%">
+            <col width="8.9%">
+            <col width="8.3%">
+            <col width="10.1%">
+            <col width="11.7%">
+            <col width="10.3%">
+            <col width="10.9%">
+            <col width="8.5%">
+            <col width="4.1%">
+          </colgroup>
+          <thead class="u-black u-table-header u-table-header-1">
+            <tr style="height: 120px;">
+              <th class="u-border-1 u-border-black u-table-cell u-table-cell-1">N<span style="font-size: 1rem;"></span>O
+              </th>
+              <th class="u-border-1 u-border-black u-table-cell u-table-cell-2">Memur No</th>
+              <th class="u-border-1 u-border-black u-table-cell">Soyad</th>
+              <th class="u-border-1 u-border-black u-table-cell">Ad</th>
+              <th class="u-border-1 u-border-black u-table-cell">Meslek</th>
+              <th class="u-border-1 u-border-black u-table-cell">Daire</th>
+              <th class="u-border-1 u-border-black u-table-cell">Bölüm</th>
+              <th class="u-border-1 u-border-black u-table-cell">Aylık</th>
+              <th class="u-border-1 u-border-black u-table-cell">Kontrol&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Tarihi</th>
+              <th class="u-border-1 u-border-black u-table-cell u-table-cell-10">İşe Başlama&nbsp; Tarihi</th>
+              <th class="u-border-1 u-border-black u-table-cell u-table-cell-11">Dogum Tarihi</th>
+              <th class="u-border-1 u-border-black u-table-cell u-table-cell-12">KAN GRUBU<br>
+                <br>
+              </th>
+              <th class="u-border-1 u-border-black u-table-cell u-table-cell-13">RH</th>
+            </tr>
+          </thead>
+          <tbody class="u-grey-70 u-table-body u-table-body-1">
+          {% for contac in veriler %}
+            <tr style="height: 51px;">
+            <td> {{contac.0}}</td>
+            <td> {{contac.1}}</td>
+            <td> {{contac.2}}</td>
+            <td> {{contac.3}}</td>
+            <td> {{contac.4}}</td>
+            <td> {{contac.5}}</td>
+            <td> {{contac.6}}</td>
+            <td> {{contac.7}}</td>
+            <td> {{contac.8}}</td>
+            <td> {{contac.9}}</td>
+            <td> {{contac.10}}</td>
+            <td> {{contac.11}}</td>
+            <td> {{contac.12}}</td>
+            </tr>
+          {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </body>
+</html>
