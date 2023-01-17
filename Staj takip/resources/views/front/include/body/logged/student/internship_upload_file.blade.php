@@ -43,7 +43,7 @@
                             name="studentUploadedFile"></div>
                     <div class="mb-3"><label class="form-label" style="font-weight: bold;">DİKKAT !</label><label
                             class="form-label" style="text-align: left;"><strong>★&nbsp;</strong>Lütfen sadece .pdf uzantılı
-                            belge yüklemeye özen gösterelim aksi taktirde belgeniz onay olmayacaktır.</label><label
+                            belge yüklemeye özen gösterelim aksi taktirde belgeniz onay almayacaktır.</label><label
                             class="form-label">★ Staj için gerekli&nbsp; belgeyi doldurduktan sonra dijital kopyasını&nbsp;
                             sisteme yüklemek zorunludur. Aksi taktirde staj ile ilgili sorunlar oluşabilir. </label><label
                             class="form-label">★ Staj belgeniz Okul tarafından onaylandıktan sonra stajınız resmi olarak

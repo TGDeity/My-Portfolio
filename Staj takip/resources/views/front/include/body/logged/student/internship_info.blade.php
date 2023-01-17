@@ -39,83 +39,90 @@
                 <div class="heading">
                     <h2>Staj defterim</h2>
                 </div>
+
                 <div class="row">
-                    <div class="col-md-6 col-lg-4">
-                        <div class="project-card-no-image">
-                            <h3>1.Gün</h3>
-                            <h4>Başarıyla tamamlandı</h4><a class="btn btn-primary btn-lg text-lowercase" role="button"
-                                href="#myModal" data-bs-toggle="modal"
-                                style="background: transparent;color: var(--bs-blue);">İncele</a>
-                            <div class="modal fade" role="dialog" tabindex="-1" id="myModal">
-                                <div class="modal-dialog" role="document">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h4>Modal Title</h4><button type="button" class="btn-close"
-                                                data-bs-dismiss="modal" aria-label="Close"></button>
+                    @php
+                        $days = 0;
+                        $modalTablIndex = -2;
+                    @endphp
+                    @foreach ($internships as $getVal)
+                        @php
+                            $days++;
+                            $modalTablIndex++;
+                            $daysCounterForDataTarget = '#myModal' . $days;
+                            $daysCounterForModelId = 'myModal' . $days;
+                            
+                        @endphp
+
+                        {{-- <div class="container"> {{ $getVal->description_stu }}</div> --}}
+                        <div class="col-md-6 col-lg-4">
+                            <div class="project-card-no-image">
+                                <h3>{{ $days }}.Gün</h3>
+                                <h4>Başarıyla tamamlandı</h4><a class="btn btn-primary btn-lg text-lowercase" role="button"
+                                    data-bs-target={{ $daysCounterForDataTarget }} data-bs-toggle="modal"
+                                    style="background: transparent;color: var(--bs-blue);">İncele</a>
+
+                                <div class="modal fade" role="dialog" tabindex={{ $modalTablIndex }}
+                                    id={{ $daysCounterForModelId }}>
+                                    <div class="modal-dialog modal-xl modal-body-xl" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h4>{{ $days }}.Gün</h4><button type="button" class="btn-close"
+                                                    data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+
+                                            <div class="modal-body">
+                                                {{--            <p class="text-center text-muted">{{ $getVal->description_stu }} </p>
+                                                <p class="text-center text-muted">{{ $getVal->description_emp }} </p> --}}
+                                                <div class="container-fluid ">
+                                                    <div class="row ">
+                                                        <div class="col-12">
+                                                            <form action="" class="form">
+
+                                                                <div class="form-group">
+                                                                    <label for="description">Bugün neler yaptın?</label>
+                                                                    <textarea required type="text" class="form-control" id="decsription" name="description" rows="10" cols="10"
+                                                                        placeholder="Bugün yaptıklarım..."></textarea>
+                                                                    <small id="descriptionHelp"
+                                                                        class="form-text text-muted">Lütfen gün içinde
+                                                                        yaptığınız işlemleri kutucuğa yazınız.</small>
+
+                                                                </div>
+
+                                                                <div class="row mt-5">
+                                                                    <div class="col-sm-7 col-md-10">
+                                                                        <div class="form-check">
+                                                                            <input required class="form-check-input"
+                                                                                type="checkbox" value="onay"
+                                                                                id="onay">
+                                                                            <label class="form-check-label" for="onay">
+                                                                                Yukarıda yazıklarımı onaylıyorum.
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-sm-5 col-md-2"><button
+                                                                            class="btn btn-primary"
+                                                                            type="submit">Gönder</button></div>
+
+                                                                </div>
+                                                            </form>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button class="btn btn-light" type="button"
+                                                        data-bs-dismiss="modal">Kapat</button>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="modal-body">
-                                            <p class="text-center text-muted">Description </p>
-                                        </div>
-                                        <div class="modal-footer"><button class="btn btn-light" type="button"
-                                                data-bs-dismiss="modal">Close</button><button class="btn btn-primary"
-                                                type="button">Save</button></div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="project-card-no-image">
-                            <h3>2.Gün</h3>
-                            <h4>Tamamlanamadı</h4><a class="btn btn-primary btn-lg text-lowercase" role="button"
-                                href="#myModal" data-bs-toggle="modal"
-                                style="background: transparent;color: var(--bs-blue);">İncele</a>
-                            <div class="tags"></div>
-                            <div class="modal fade" role="dialog" tabindex="-1" id="myModal-2">
-                                <div class="modal-dialog" role="document">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h4>Modal Title</h4><button type="button" class="btn-close"
-                                                data-bs-dismiss="modal" aria-label="Close"></button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <p class="text-center text-muted">Description </p>
-                                        </div>
-                                        <div class="modal-footer"><button class="btn btn-light" type="button"
-                                                data-bs-dismiss="modal">Close</button><button class="btn btn-primary"
-                                                type="button">Save</button></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="project-card-no-image">
-                            <h3>3.Gün</h3>
-                            <h4>Gün raporu girilmesi bekleniyor.</h4><a class="btn btn-primary btn-lg text-lowercase"
-                                role="button" href="#myModal" data-bs-toggle="modal"
-                                style="background: transparent;color: var(--bs-blue);">İncele</a>
-                            <div class="tags"></div>
-                            <div class="modal fade" role="dialog" tabindex="-1" id="myModal-3">
-                                <div class="modal-dialog" role="document">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h4>Modal Title</h4><button type="button" class="btn-close"
-                                                data-bs-dismiss="modal" aria-label="Close"></button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <p class="text-center text-muted">Description </p>
-                                        </div>
-                                        <div class="modal-footer"><button class="btn btn-light" type="button"
-                                                data-bs-dismiss="modal">Close</button><button class="btn btn-primary"
-                                                type="button">Save</button></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    @endforeach
                 </div>
             </div>
+
         </section>
         <section class="portfolio-block project-no-images">
             <div class="container">

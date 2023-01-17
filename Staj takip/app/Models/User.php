@@ -3,11 +3,13 @@
 namespace App\Models;
 
 // use Illuminate\Contracts\Auth\MustVerifyEmail;
+
+use App\Models\Student\Students;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
-use App\Models\Internship;
+
 
 class User extends Authenticatable
 {
@@ -16,9 +18,9 @@ class User extends Authenticatable
 
     protected $table = 'users';
 
-    public function getNews()
+    public function getStudent()
     {
-        return $this->hasMany(Internship::class);
+        return $this->belongsTo(Students::class, "person_id", "student_id");
     }
 
     /**
@@ -27,9 +29,11 @@ class User extends Authenticatable
      * @var array<int, string>
      */
     protected $fillable = [
-        'email',
+
         'number',
         'name',
+        'authority_id',
+        'department',
         'password',
     ];
 

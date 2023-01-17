@@ -19,7 +19,6 @@
 @section('content')
     <div class="container-fluid" style="width: 30%;height: 60%;">
         <form method="post" action="{{ route('register') }}">
-
             @csrf
             <h1 class="h3 mb-3 fw-normal">Register</h1>
             <div class="form-group form-floating mb-3">
@@ -53,6 +52,24 @@
                     value="{{ old('password_confirmation') }}" placeholder="Confirm Password" required="required">
                 @if ($errors->has('password_confirmation'))
                     <span class="text-danger text-left">{{ $errors->first('password_confirmation') }}</span>
+                @endif
+            </div>
+
+            <div class="form-group form-floating mb-3">
+                <label for="floatingName">department</label>
+                <input type="text" class="form-control" name="department" value="{{ old('department') }}"
+                    placeholder="department" required="required" autofocus>
+                @if ($errors->has('department'))
+                    <span class="text-danger text-left">{{ $errors->first('department') }}</span>
+                @endif
+            </div>
+
+            <div class="form-group form-floating mb-3">
+                <label for="floatingName">authority_id</label>
+                <input type="text" class="form-control" name="authority_id" value="{{ old('authority_id') }}"
+                    placeholder="authority_id" required="required" autofocus>
+                @if ($errors->has('authority_id'))
+                    <span class="text-danger text-left">{{ $errors->first('authority_id') }}</span>
                 @endif
             </div>
 

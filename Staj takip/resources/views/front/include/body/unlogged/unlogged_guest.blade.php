@@ -16,8 +16,42 @@
                         <div class="keyboard"></div>
                     </div>
                 </div>
+
+                <div class="deneme " style="padding-top: 10px">
+
+                    <style>
+                        .deneme {
+                            display: flex;
+                            height: 20rem;
+
+                            gap: 1rem;
+
+                        }
+
+                        .deneme>div {
+                            flex: 1;
+                            border-radius: 1rem;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            background-size: auto 100%;
+                            transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+                        }
+
+                        .deneme>div:hover {
+                            flex: 5;
+                        }
+                    </style>
+                    <div style="background-image: url({{ asset('assets/iku.jpg') }}) "></div>
+                    <div style="background-image: url({{ asset('assets/iku.jpg') }}) "></div>
+                    <div style="background-image: url({{ asset('assets/iku.jpg') }}) "></div>
+                    <div style="background-image: url({{ asset('assets/iku.jpg') }}) "></div>
+                    <div style="background-image: url({{ asset('assets/iku.jpg') }}) "></div>
+                    <div style="background-image: url({{ asset('assets/iku.jpg') }}) "></div>
+                </div>
             </div>
         </div>
     </section>
+
+
 </main>
 @include('front.include.body.unlogged.unlogged_guest_footer')
