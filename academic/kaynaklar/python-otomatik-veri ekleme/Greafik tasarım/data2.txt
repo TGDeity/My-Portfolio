@@ -1,0 +1,30 @@
+INSERT INTO `lesson_codes` (`id`, `lesson_name`,
+`lesson_code`, `AKTS`, `lesson_type`, `T/U/L`, `program_name_id`,`year`, `created_at`, `updated_at`)
+VALUES (NULL, 'Atatürk İlkeleri ve İnkılap Tarihi II', 'ATA2001', '2', 'Z', '2/0/0', '4','2/4', NULL, NULL);
+INSERT INTO `lesson_codes` (`id`, `lesson_name`,
+`lesson_code`, `AKTS`, `lesson_type`, `T/U/L`, `program_name_id`,`year`, `created_at`, `updated_at`)
+VALUES (NULL, 'Yabancı Dil II', 'YDI2001', '3', 'Z', '3/0/0', '4','2/4', NULL, NULL);
+INSERT INTO `lesson_codes` (`id`, `lesson_name`,
+`lesson_code`, `AKTS`, `lesson_type`, `T/U/L`, `program_name_id`,`year`, `created_at`, `updated_at`)
+VALUES (NULL, 'Türkçe II', 'TR2001', '2', 'Z', '2/0/0', '4','2/4', NULL, NULL);
+INSERT INTO `lesson_codes` (`id`, `lesson_name`,
+`lesson_code`, `AKTS`, `lesson_type`, `T/U/L`, `program_name_id`,`year`, `created_at`, `updated_at`)
+VALUES (NULL, 'Temel Sanat Eğitimi II', 'MGT2930', '4', 'Z', '2/2/0', '4','2/4', NULL, NULL);
+INSERT INTO `lesson_codes` (`id`, `lesson_name`,
+`lesson_code`, `AKTS`, `lesson_type`, `T/U/L`, `program_name_id`,`year`, `created_at`, `updated_at`)
+VALUES (NULL, 'Özgün Baskı II', 'MGT2004', '3', 'Z', '2/1/0', '4','2/4', NULL, NULL);
+INSERT INTO `lesson_codes` (`id`, `lesson_name`,
+`lesson_code`, `AKTS`, `lesson_type`, `T/U/L`, `program_name_id`,`year`, `created_at`, `updated_at`)
+VALUES (NULL, 'Grafik Tasarım II', 'MGT2002', '4', 'Z', '2/2/0', '4','2/4', NULL, NULL);
+INSERT INTO `lesson_codes` (`id`, `lesson_name`,
+`lesson_code`, `AKTS`, `lesson_type`, `T/U/L`, `program_name_id`,`year`, `created_at`, `updated_at`)
+VALUES (NULL, 'Yazı ve Tipografi II', 'MGT2003', '4', 'Z', '2/2/0', '4','2/4', NULL, NULL);
+INSERT INTO `lesson_codes` (`id`, `lesson_name`,
+`lesson_code`, `AKTS`, `lesson_type`, `T/U/L`, `program_name_id`,`year`, `created_at`, `updated_at`)
+VALUES (NULL, 'İş Yeri Uygulaması', 'MGT2918', '6', 'Z', '0/3/0', '4','2/4', NULL, NULL);
+INSERT INTO `lesson_codes` (`id`, `lesson_name`,
+`lesson_code`, `AKTS`, `lesson_type`, `T/U/L`, `program_name_id`,`year`, `created_at`, `updated_at`)
+VALUES (NULL, 'Atatürk İlkeleri ve İnkılap Tarihi II', 'ATA2001', '2', 'Z', '2/0/0', '4','2/4', NULL, NULL);
+INSERT INTO `lesson_codes` (`id`, `lesson_name`,
+`lesson_code`, `AKTS`, `lesson_type`, `T/U/L`, `program_name_id`,`year`, `created_at`, `updated_at`)
+VALUES (NULL, 'Türkçe II', 'TR2001', '2 ', 'Z', '2/0/0', '4','2/4', NULL, NULL);

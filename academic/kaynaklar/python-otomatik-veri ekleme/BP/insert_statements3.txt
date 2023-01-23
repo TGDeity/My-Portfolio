@@ -1,0 +1,15 @@
+INSERT INTO `lesson_codes` (`id`, `lesson_name`,
+`lesson_code`, `AKTS`, `lesson_type`, `T/U/L`, `program_name_id`,`year`, `created_at`, `updated_at`)
+VALUES (NULL, 'Ders Adı', 'Ders Kodu', 'AKTS', 'Ders Türü', 'T/U/L', '1','3/4', NULL, NULL);
+INSERT INTO `lesson_codes` (`id`, `lesson_name`,
+`lesson_code`, `AKTS`, `lesson_type`, `T/U/L`, `program_name_id`,`year`, `created_at`, `updated_at`)
+VALUES (NULL, 'İstatistik ve Olasılık', 'TBP3916', '3', 'Z', '2/1/0', '1','3/4', NULL, NULL);
+INSERT INTO `lesson_codes` (`id`, `lesson_name`,
+`lesson_code`, `AKTS`, `lesson_type`, `T/U/L`, `program_name_id`,`year`, `created_at`, `updated_at`)
+VALUES (NULL, 'Mesleki Yabancı Dil I', 'TBP3919', '4', 'Z', '2/2/0', '1','3/4', NULL, NULL);
+INSERT INTO `lesson_codes` (`id`, `lesson_name`,
+`lesson_code`, `AKTS`, `lesson_type`, `T/U/L`, `program_name_id`,`year`, `created_at`, `updated_at`)
+VALUES (NULL, 'İnternet Programcılığı', 'TBP3002', '3', 'Z', '2/1/0', '1','3/4', NULL, NULL);
+INSERT INTO `lesson_codes` (`id`, `lesson_name`,
+`lesson_code`, `AKTS`, `lesson_type`, `T/U/L`, `program_name_id`,`year`, `created_at`, `updated_at`)
+VALUES (NULL, 'Görsel Programlama', 'TBP3001', '3', 'Z', '2/1/0', '1','3/4', NULL, NULL);

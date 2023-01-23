@@ -1,0 +1,78 @@
+INSERT INTO `lesson_codes` (`id`, `lesson_name`,
+`lesson_code`, `AKTS`, `lesson_type`, `T/U/L`, `program_name_id`,`year`, `created_at`, `updated_at`)
+VALUES (NULL, 'Temel Hukuk Bilgisi I', 'AMY1001', '3', 'Z', '2/0/0', '5','1/4', NULL, NULL);
+INSERT INTO `lesson_codes` (`id`, `lesson_name`,
+`lesson_code`, `AKTS`, `lesson_type`, `T/U/L`, `program_name_id`,`year`, `created_at`, `updated_at`)
+VALUES (NULL, 'Anayasa Hukuku Bilgisi', 'AMY1002', '3', 'Z', '2/0/0', '5','1/4', NULL, NULL);
+INSERT INTO `lesson_codes` (`id`, `lesson_name`,
+`lesson_code`, `AKTS`, `lesson_type`, `T/U/L`, `program_name_id`,`year`, `created_at`, `updated_at`)
+VALUES (NULL, 'Medeni Hukuk Bilgisi I', 'AMY1003', '3', 'Z', '2/0/0', '5','1/4', NULL, NULL);
+INSERT INTO `lesson_codes` (`id`, `lesson_name`,
+`lesson_code`, `AKTS`, `lesson_type`, `T/U/L`, `program_name_id`,`year`, `created_at`, `updated_at`)
+VALUES (NULL, 'Ceza Hukuku Bilgisi I', 'AMY1004', '3', 'Z', '2/0/0', '5','1/4', NULL, NULL);
+INSERT INTO `lesson_codes` (`id`, `lesson_name`,
+`lesson_code`, `AKTS`, `lesson_type`, `T/U/L`, `program_name_id`,`year`, `created_at`, `updated_at`)
+VALUES (NULL, 'Klavye Kullanımı I', 'AMY1005', '5', 'Z', '0/4/0', '5','1/4', NULL, NULL);
+INSERT INTO `lesson_codes` (`id`, `lesson_name`,
+`lesson_code`, `AKTS`, `lesson_type`, `T/U/L`, `program_name_id`,`year`, `created_at`, `updated_at`)
+VALUES (NULL, 'Atatürk İlkeleri ve İnkılap Tarihi I', 'ATA1001', '2', 'Z', '2/0/0', '5','1/4', NULL, NULL);
+INSERT INTO `lesson_codes` (`id`, `lesson_name`,
+`lesson_code`, `AKTS`, `lesson_type`, `T/U/L`, `program_name_id`,`year`, `created_at`, `updated_at`)
+VALUES (NULL, 'Temel Hukuk Bilgisi II', 'AMY2001', '3', 'Z', '2/0/0', '5','2/4', NULL, NULL);
+INSERT INTO `lesson_codes` (`id`, `lesson_name`,
+`lesson_code`, `AKTS`, `lesson_type`, `T/U/L`, `program_name_id`,`year`, `created_at`, `updated_at`)
+VALUES (NULL, 'Medeni Hukuk Bilgisi II', 'AMY2002', '3', 'Z', '2/0/0', '5','2/4', NULL, NULL);
+INSERT INTO `lesson_codes` (`id`, `lesson_name`,
+`lesson_code`, `AKTS`, `lesson_type`, `T/U/L`, `program_name_id`,`year`, `created_at`, `updated_at`)
+VALUES (NULL, 'Ceza Hukuku Bilgisi II', 'AMY2003', '3', 'Z', '2/0/0', '5','2/4', NULL, NULL);
+INSERT INTO `lesson_codes` (`id`, `lesson_name`,
+`lesson_code`, `AKTS`, `lesson_type`, `T/U/L`, `program_name_id`,`year`, `created_at`, `updated_at`)
+VALUES (NULL, 'Klavye Kullanımı II', 'AMY2005', '5', 'Z', '0/4/0', '5','2/4', NULL, NULL);
+INSERT INTO `lesson_codes` (`id`, `lesson_name`,
+`lesson_code`, `AKTS`, `lesson_type`, `T/U/L`, `program_name_id`,`year`, `created_at`, `updated_at`)
+VALUES (NULL, 'Atatürk İlkeleri ve İnkılap Tarihi II', 'ATA2001', '2', 'Z', '2/0/0', '5','2/4', NULL, NULL);
+INSERT INTO `lesson_codes` (`id`, `lesson_name`,
+`lesson_code`, `AKTS`, `lesson_type`, `T/U/L`, `program_name_id`,`year`, `created_at`, `updated_at`)
+VALUES (NULL, 'Türkçe II', 'TR2001', '2', 'Z', '2/0/0', '5','2/4', NULL, NULL);
+INSERT INTO `lesson_codes` (`id`, `lesson_name`,
+`lesson_code`, `AKTS`, `lesson_type`, `T/U/L`, `program_name_id`,`year`, `created_at`, `updated_at`)
+VALUES (NULL, 'Medeni Usul Hukuku Bilgisi I', 'AMY3001', '3', 'Z', '2/0/0', '5','3/4', NULL, NULL);
+INSERT INTO `lesson_codes` (`id`, `lesson_name`,
+`lesson_code`, `AKTS`, `lesson_type`, `T/U/L`, `program_name_id`,`year`, `created_at`, `updated_at`)
+VALUES (NULL, 'Medeni Hukuk Bilgisi III', 'AMY3002', '3', 'Z', '2/0/0', '5','3/4', NULL, NULL);
+INSERT INTO `lesson_codes` (`id`, `lesson_name`,
+`lesson_code`, `AKTS`, `lesson_type`, `T/U/L`, `program_name_id`,`year`, `created_at`, `updated_at`)
+VALUES (NULL, 'Ceza Usul Hukuku Bilgisi I', 'AMY3003', '3', 'Z', '2/0/0', '5','3/4', NULL, NULL);
+INSERT INTO `lesson_codes` (`id`, `lesson_name`,
+`lesson_code`, `AKTS`, `lesson_type`, `T/U/L`, `program_name_id`,`year`, `created_at`, `updated_at`)
+VALUES (NULL, 'İcra ve İflas Hukuku Bilgisi l', 'AMY3004', '3', 'Z', '2/0/0', '5','3/4', NULL, NULL);
+INSERT INTO `lesson_codes` (`id`, `lesson_name`,
+`lesson_code`, `AKTS`, `lesson_type`, `T/U/L`, `program_name_id`,`year`, `created_at`, `updated_at`)
+VALUES (NULL, 'Klavye Kullanımı lll', 'AMY3005', '4', 'Z', '0/3/0', '5','3/4', NULL, NULL);
+INSERT INTO `lesson_codes` (`id`, `lesson_name`,
+`lesson_code`, `AKTS`, `lesson_type`, `T/U/L`, `program_name_id`,`year`, `created_at`, `updated_at`)
+VALUES (NULL, 'İdare ve İdari Yargılama Hukuku Bilgisi I', 'AMY3006', '2', 'Z', '2/0/0', '5','3/4', NULL, NULL);
+INSERT INTO `lesson_codes` (`id`, `lesson_name`,
+`lesson_code`, `AKTS`, `lesson_type`, `T/U/L`, `program_name_id`,`year`, `created_at`, `updated_at`)
+VALUES (NULL, 'Hukuk Dili ve Adli Yazışma l', 'AMY3007', '3', 'Z', '2/0/0', '5','3/4', NULL, NULL);
+INSERT INTO `lesson_codes` (`id`, `lesson_name`,
+`lesson_code`, `AKTS`, `lesson_type`, `T/U/L`, `program_name_id`,`year`, `created_at`, `updated_at`)
+VALUES (NULL, 'Medeni Usul Hukuku Bilgisi II', 'AMY4001', '3', 'Z', '2/0/0', '5','4/4', NULL, NULL);
+INSERT INTO `lesson_codes` (`id`, `lesson_name`,
+`lesson_code`, `AKTS`, `lesson_type`, `T/U/L`, `program_name_id`,`year`, `created_at`, `updated_at`)
+VALUES (NULL, 'Medeni Hukuk Bilgisi IV', 'AMY4002', '3', 'Z', '2/0/0', '5','4/4', NULL, NULL);
+INSERT INTO `lesson_codes` (`id`, `lesson_name`,
+`lesson_code`, `AKTS`, `lesson_type`, `T/U/L`, `program_name_id`,`year`, `created_at`, `updated_at`)
+VALUES (NULL, 'Ceza Usul Hukuku Bilgisi II', 'AMY4003', '3', 'Z', '2/0/0', '5','4/4', NULL, NULL);
+INSERT INTO `lesson_codes` (`id`, `lesson_name`,
+`lesson_code`, `AKTS`, `lesson_type`, `T/U/L`, `program_name_id`,`year`, `created_at`, `updated_at`)
+VALUES (NULL, 'İcra ve İflas Hukuku Bilgisi II', 'AMY4004', '3', 'Z', '2/0/0', '5','4/4', NULL, NULL);
+INSERT INTO `lesson_codes` (`id`, `lesson_name`,
+`lesson_code`, `AKTS`, `lesson_type`, `T/U/L`, `program_name_id`,`year`, `created_at`, `updated_at`)
+VALUES (NULL, 'Klavye Kullanımı IV', 'AMY4005', '4', 'Z', '0/3/0', '5','4/4', NULL, NULL);
+INSERT INTO `lesson_codes` (`id`, `lesson_name`,
+`lesson_code`, `AKTS`, `lesson_type`, `T/U/L`, `program_name_id`,`year`, `created_at`, `updated_at`)
+VALUES (NULL, 'İdare ve İdari Yargılama Hukuku Bilgisi II', 'AMY4006', '3', 'Z', '2/0/0', '5','4/4', NULL, NULL);
+INSERT INTO `lesson_codes` (`id`, `lesson_name`,
+`lesson_code`, `AKTS`, `lesson_type`, `T/U/L`, `program_name_id`,`year`, `created_at`, `updated_at`)
+VALUES (NULL, 'Hukuk Dili ve Adli Yazışma II', 'AMY 4007', '3', 'Z', '2/0/0', '5','4/4', NULL, NULL);

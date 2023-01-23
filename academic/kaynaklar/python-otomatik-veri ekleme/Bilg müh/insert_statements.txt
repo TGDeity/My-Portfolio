@@ -1,0 +1,45 @@
+INSERT INTO `lessons` (`id`, `lesson_name`, `lesson_id`, `AKTS`, `lesson_type`, `TUL`, `program_name_id`, `year`, `created_at`, `updated_at`) VALUES (NULL, 'Bilgisayar Mühendisliği için Akademik İngilizce I', 'CSE1101', '3', 'Z', '3/0/0', '4', '1/8', NULL, NULL);
+INSERT INTO `lessons` (`id`, `lesson_name`, `lesson_id`, `AKTS`, `lesson_type`, `TUL`, `program_name_id`, `year`, `created_at`, `updated_at`) VALUES (NULL, 'Programlama I', 'CSE1001', '8', 'Z', '2/0/2', '4', '1/8', NULL, NULL);
+INSERT INTO `lessons` (`id`, `lesson_name`, `lesson_id`, `AKTS`, `lesson_type`, `TUL`, `program_name_id`, `year`, `created_at`, `updated_at`) VALUES (NULL, 'Bilgisayar Mühendisliğine Giriş', 'CSE1003', '5', 'Z', '2/0/2', '4', '1/8', NULL, NULL);
+INSERT INTO `lessons` (`id`, `lesson_name`, `lesson_id`, `AKTS`, `lesson_type`, `TUL`, `program_name_id`, `year`, `created_at`, `updated_at`) VALUES (NULL, 'Fizik I', 'PHY1001 -', '7', 'Z', '2/0/2', '4', '1/8', NULL, NULL);
+INSERT INTO `lessons` (`id`, `lesson_name`, `lesson_id`, `AKTS`, `lesson_type`, `TUL`, `program_name_id`, `year`, `created_at`, `updated_at`) VALUES (NULL, 'Matematik I', 'MCB1001 -', '7', 'Z', '4/0/0', '4', '1/8', NULL, NULL);
+INSERT INTO `lessons` (`id`, `lesson_name`, `lesson_id`, `AKTS`, `lesson_type`, `TUL`, `program_name_id`, `year`, `created_at`, `updated_at`) VALUES (NULL, 'Atatürk İlkeleri ve İnkılap Tarihi I', 'ATA1001', '2', 'Z', '2/0/0', '4', '1/8', NULL, NULL);
+INSERT INTO `lessons` (`id`, `lesson_name`, `lesson_id`, `AKTS`, `lesson_type`, `TUL`, `program_name_id`, `year`, `created_at`, `updated_at`) VALUES (NULL, 'Türkçe I', 'TR1001', '2', 'Z', '2/0/0', '4', '1/8', NULL, NULL);
+
+
+INSERT INTO `lessons` (`id`, `lesson_name`, `lesson_id`, `AKTS`, `lesson_type`, `TUL`, `program_name_id`, `year`, `created_at`, `updated_at`) VALUES (NULL, ' Akademik İngilizce II', 'CSE2102', '3', 'Z', '3/0/0', '4', '2/8', NULL, NULL);
+INSERT INTO `lessons` (`id`, `lesson_name`, `lesson_id`, `AKTS`, `lesson_type`, `TUL`, `program_name_id`, `year`, `created_at`, `updated_at`) VALUES (NULL, 'Programlama II', 'CSE2002', '8', 'Z', '2/0/2', '4', '2/8', NULL, NULL);
+INSERT INTO `lessons` (`id`, `lesson_name`, `lesson_id`, `AKTS`, `lesson_type`, `TUL`, `program_name_id`, `year`, `created_at`, `updated_at`) VALUES (NULL, 'Kimya', 'CSE2094', '5', 'Z', '2/0/2', '4', '2/8', NULL, NULL);
+INSERT INTO `lessons` (`id`, `lesson_name`, `lesson_id`, `AKTS`, `lesson_type`, `TUL`, `program_name_id`, `year`, `created_at`, `updated_at`) VALUES (NULL, 'Fizik II', 'PHY2001 -', '7', 'Z', '2/0/2', '4', '2/8', NULL, NULL);
+INSERT INTO `lessons` (`id`, `lesson_name`, `lesson_id`, `AKTS`, `lesson_type`, `TUL`, `program_name_id`, `year`, `created_at`, `updated_at`) VALUES (NULL, 'Matematik II', 'MCB1002 -', '7', 'Z', '4/0/0', '4', '2/8', NULL, NULL);
+INSERT INTO `lessons` (`id`, `lesson_name`, `lesson_id`, `AKTS`, `lesson_type`, `TUL`, `program_name_id`, `year`, `created_at`, `updated_at`) VALUES (NULL, 'Atatürk İlkeleri ve İnkılap Tarihi II', 'ATA2001', '2', 'Z', '2/0/0', '4', '2/8', NULL, NULL);
+INSERT INTO `lessons` (`id`, `lesson_name`, `lesson_id`, `AKTS`, `lesson_type`, `TUL`, `program_name_id`, `year`, `created_at`, `updated_at`) VALUES (NULL, 'Türkçe II', 'TR2001', '2', 'Z', '2/0/0', '4', '2/8', NULL, NULL);
+
+INSERT INTO `lessons` (`id`, `lesson_name`, `lesson_id`, `AKTS`, `lesson_type`, `TUL`, `program_name_id`, `year`, `created_at`, `updated_at`) VALUES (NULL, 'Sayısal Tasarım I', 'CSE3021', '6', 'Z', '2/0/2', '4', '3/8', NULL, NULL);
+INSERT INTO `lessons` (`id`, `lesson_name`, `lesson_id`, `AKTS`, `lesson_type`, `TUL`, `program_name_id`, `year`, `created_at`, `updated_at`) VALUES (NULL, 'Ayrık Yapılar', 'CSE3013', '9', 'Z', '2/0/2', '4', '3/8', NULL, NULL);
+INSERT INTO `lessons` (`id`, `lesson_name`, `lesson_id`, `AKTS`, `lesson_type`, `TUL`, `program_name_id`, `year`, `created_at`, `updated_at`) VALUES (NULL, 'Akademik Yazma I (İngilizce)', 'CSE3209', '3', 'Z', '2/0/0', '4', '3/8', NULL, NULL);
+INSERT INTO `lessons` (`id`, `lesson_name`, `lesson_id`, `AKTS`, `lesson_type`, `TUL`, `program_name_id`, `year`, `created_at`, `updated_at`) VALUES (NULL, 'Lineer Cebir', 'MCB1004 -', '6', 'Z', '4/0/0', '4', '3/8', NULL, NULL);
+INSERT INTO `lessons` (`id`, `lesson_name`, `lesson_id`, `AKTS`, `lesson_type`, `TUL`, `program_name_id`, `year`, `created_at`, `updated_at`) VALUES (NULL, 'Nesneye Dayalı Programlama', 'CSE3003', '8', 'Z', '2/0/2', '4', '3/8', NULL, NULL);
+
+INSERT INTO `lessons` (`id`, `lesson_name`, `lesson_id`, `AKTS`, `lesson_type`, `TUL`, `program_name_id`, `year`, `created_at`, `updated_at`) VALUES (NULL, 'Sistem Analizi ve İnsan Bilgisayar Etkileşimi Tasarımı', 'CSE4061', '5', 'Z', '2/2/0', '4', '4/8', NULL, NULL);
+INSERT INTO `lessons` (`id`, `lesson_name`, `lesson_id`, `AKTS`, `lesson_type`, `TUL`, `program_name_id`, `year`, `created_at`, `updated_at`) VALUES (NULL, 'Mikroişlemciler', 'CSE4024', '5', 'Z', '2/0/2', '4', '4/8', NULL, NULL);
+INSERT INTO `lessons` (`id`, `lesson_name`, `lesson_id`, `AKTS`, `lesson_type`, `TUL`, `program_name_id`, `year`, `created_at`, `updated_at`) VALUES (NULL, 'Veri Yapıları ve Algoritmalar I', 'CSE4014', '8', 'Z', '2/0/2', '4', '4/8', NULL, NULL);
+INSERT INTO `lessons` (`id`, `lesson_name`, `lesson_id`, `AKTS`, `lesson_type`, `TUL`, `program_name_id`, `year`, `created_at`, `updated_at`) VALUES (NULL, 'Bilgisayar Organizasyonu', 'CSE4023', '5', 'Z', '2/0/2', '4', '4/8', NULL, NULL);
+INSERT INTO `lessons` (`id`, `lesson_name`, `lesson_id`, `AKTS`, `lesson_type`, `TUL`, `program_name_id`, `year`, `created_at`, `updated_at`) VALUES (NULL, 'Bilgisayar Mühendisleri için Sinyaller ve Sistemler', 'CSE4050', '5', 'Z', '2/0/2', '4', '4/8', NULL, NULL);
+
+
+INSERT INTO `lessons` (`id`, `lesson_name`, `lesson_id`, `AKTS`,`lesson_type`, `TUL`, `program_name_id`, `year`, `created_at`, `updated_at`)          VALUES (NULL, 'Olasılık Teorisi ve İstatistiğe Giriş', 'MCB1007 -', '6', 'Z', '4/0/0', '4', '5/8', NULL, NULL);
+INSERT INTO `lessons` (`id`, `lesson_name`, `lesson_id`, `AKTS`,`lesson_type`, `TUL`, `program_name_id`, `year`, `created_at`, `updated_at`)          VALUES (NULL, 'Web Programlama', 'CSE5001', '6', 'Z', '2/0/2', '4', '5/8', NULL, NULL);
+INSERT INTO `lessons` (`id`, `lesson_name`, `lesson_id`, `AKTS`,`lesson_type`, `TUL`, `program_name_id`, `year`, `created_at`, `updated_at`)          VALUES (NULL, 'Staj I', 'CSE5091', '2 9', 'Z', '0/0/0', '4', '5/8', NULL, NULL);
+INSERT INTO `lessons` (`id`, `lesson_name`, `lesson_id`, `AKTS`,`lesson_type`, `TUL`, `program_name_id`, `year`, `created_at`, `updated_at`)          VALUES (NULL, 'İşletim Sistemleri', 'CSE5031', '5', 'Z', '2/0/2', '4', '5/8', NULL, NULL);
+INSERT INTO `lessons` (`id`, `lesson_name`, `lesson_id`, `AKTS`,`lesson_type`, `TUL`, `program_name_id`, `year`, `created_at`, `updated_at`)          VALUES (NULL, 'Veritabanı Tasarımı ve Geliştirme', 'CSE5041', '6', 'Z', '2/0/2', '4', '5/8', NULL, NULL);
+
+INSERT INTO `lessons` (`id`, `lesson_name`, `lesson_id`, `AKTS`,`lesson_type`, `TUL`, `program_name_id`, `year`, `created_at`, `updated_at`)          VALUES (NULL, 'Bilgisayar Ağları', 'CSE6032', '7', 'Z', '2/0/2', '4', '6/8', NULL, NULL);
+INSERT INTO `lessons` (`id`, `lesson_name`, `lesson_id`, `AKTS`,`lesson_type`, `TUL`, `program_name_id`, `year`, `created_at`, `updated_at`)          VALUES (NULL, 'Yazılım Mühendisliği', 'CSE6064', '6', 'Z', '2/0/2', '4', '6/8', NULL, NULL);
+INSERT INTO `lessons` (`id`, `lesson_name`, `lesson_id`, `AKTS`,`lesson_type`, `TUL`, `program_name_id`, `year`, `created_at`, `updated_at`)          VALUES (NULL, 'Nümerik Analiz', 'MCB1008', '6', 'Z', '2/2/0', '4', '6/8', NULL, NULL);
+
+INSERT INTO `lessons` (`id`, `lesson_name`, `lesson_id`, `AKTS`,`lesson_type`, `TUL`, `program_name_id`, `year`, `created_at`, `updated_at`)          VALUES (NULL, 'Staj II', 'CSE7092', '2', 'Z', '0/0/0', '4', '7/8', NULL, NULL);
+INSERT INTO `lessons` (`id`, `lesson_name`, `lesson_id`, `AKTS`,`lesson_type`, `TUL`, `program_name_id`, `year`, `created_at`, `updated_at`)          VALUES (NULL, 'Mühendislik Ekonomisi', 'CSE7093', '2', 'Z', '2/0/0', '4', '7/8', NULL, NULL);
+INSERT INTO `lessons` (`id`, `lesson_name`, `lesson_id`, `AKTS`,`lesson_type`, `TUL`, `program_name_id`, `year`, `created_at`, `updated_at`)          VALUES (NULL, 'Sunum Teknikleri (İngilizce)', 'CSE7311', '2', 'Z', '2/0/0', '4', '7/8', NULL, NULL);
+
+INSERT INTO `lessons` (`id`, `lesson_name`, `lesson_id`, `AKTS`,`lesson_type`, `TUL`, `program_name_id`, `year`, `created_at`, `updated_at`)          VALUES (NULL, 'Bitirme Projesi', 'CSE8090', '12', 'Z', '2/8/0', '4', '8/8', NULL, NULL);

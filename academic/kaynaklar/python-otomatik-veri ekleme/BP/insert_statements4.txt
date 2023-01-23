@@ -1,0 +1,37 @@
+data1 ="""
+ATA1001	Atatürk İlkeleri ve İnkılap Tarihi I	Z	2/0/0	2
+YDI1001	Yabancı Dil I	Z	3/0/0	3
+TR1001	Türkçe I	Z	2/0/0	2
+MGT1930	Temel Sanat Eğitimi I	Z	2/2/0	4
+MGT1001	Grafik Tasarım I	Z	2/2/0	4
+MGT1002	Yazı ve Tipografi I	Z	2/2/0	4
+MGT1003	Özgün Baskı I	Z	2/1/0	3
+MGT1004	Fotoğrafçılık I	Z	2/2/0	4
+MGT1005	Sanat Tarihi I	Z	2/0/0	2
+ATA1001	Atatürk İlkeleri ve İnkılap Tarihi I	Z	2/0/0	2
+TR1001	Türkçe I	Z	2/0/0	2
+"""
+
+data2="""
+ATA2001	Atatürk İlkeleri ve İnkılap Tarihi II	Z	2/0/0	2
+YDI2001	Yabancı Dil II	Z	3/0/0	3
+TR2001	Türkçe II	Z	2/0/0	2
+MGT2930	Temel Sanat Eğitimi II	Z	2/2/0	4
+MGT2004	Özgün Baskı II	Z	2/1/0	3
+MGT2002	Grafik Tasarım II	Z	2/2/0	4
+MGT2003	Yazı ve Tipografi II	Z	2/2/0	4
+MGT2918	İş Yeri Uygulaması	Z	0/3/0	6
+ATA2001	Atatürk İlkeleri ve İnkılap Tarihi II	Z	2/0/0	2
+TR2001	Türkçe II	Z	2/0/0	2"""
+
+data3 = """
+MGT3004	Yayın Grafiği I	Z	2/2/0	4
+MGT3002	Grafik Animasyon	Z	2/2/0	4
+MGT3001	Reklam Grafiği I	Z	2/2/0	4
+MGT3003	Semiyotik Tasarım I	Z	1/2/0	3
+"""
+data4 = """
+YGT4111	Reklam Grafiği II	Z	2/3/0	5
+YGT4112	Yayın Grafiği II	Z	2/3/0	5
+IMY4003	İş Yeri Uygulaması	Z	0/3/0	6
+"""
