@@ -11,14 +11,14 @@ class HomeController extends Controller
 {
     public function index()
     {
-        try {
+        /* try {
             $ip = request()->ip();
             DB::table('ticker')->firstOrCreate([
                 'ip' => $ip,
 
             ]);
         } catch (\Throwable $th) {
-        }
+        } */
 
 
         $project = Project::orderBy('id', 'desc')->get();
